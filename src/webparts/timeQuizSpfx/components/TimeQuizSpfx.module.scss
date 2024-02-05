@@ -1,0 +1,103 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.timeQuizSpfx {
+  display: flex;
+
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+    img {
+      height: auto;
+      /* width: 100%; */
+    }
+  }
+
+  .accessContainer {
+    background-color: #C6CDEB;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: self-end;
+    justify-content: center;
+
+    h1 {
+      margin: 0;
+      margin-right: 50px;
+      padding: 0;
+      font-size: 4.5rem;
+      font-weight: 500;
+      color: #3b5ef3;
+    }
+
+    h1:nth-child(2) {
+      font-weight: 300;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 2rem;
+      color: #3b5ef3;
+      margin-right: 50px;
+      font-weight: 300;
+    }
+
+    span {
+
+      p {
+        color: #232323;
+        font-size: 1.2rem;
+        margin: 20px 50px;
+        padding: 0;
+        font-weight: 300;
+        border-top: 1px solid #6c84ee;
+        padding-top: 5px;
+      }
+    }
+
+    .buttonStyle {
+      background-color: #6c84ee;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      font-weight: 500;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease;
+      margin-right: 50px;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #3b5ef3;
+      }
+    }
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}

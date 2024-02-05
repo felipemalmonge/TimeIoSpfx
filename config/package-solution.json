@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "time-quiz-spfx-client-side-solution",
+    "id": "aa3d488e-43fd-48fb-aea3-f6ca427abca1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "time-quiz-spfx description"
+      },
+      "longDescription": {
+        "default": "time-quiz-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "time-quiz-spfx Feature",
+        "description": "The feature that activates elements of the time-quiz-spfx solution.",
+        "id": "bf673d2d-f55c-4786-a2e8-0969e32bbea9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/time-quiz-spfx.sppkg"
+  }
+}
